@@ -1,0 +1,298 @@
+@media (max-width: 900px) {
+  
+  #seccion__log{
+    h2{
+      font-size: $standar;
+    }
+    p,h3{
+      font-size: 11px;
+    }
+    button{
+      font-size: 11px;
+    }
+  }
+    #registro{
+      width: auto;
+      input{
+        width: $standar*20;
+        height: 20px;
+      }
+      textarea{
+        text-align: center;
+        width: 400px;
+        height: 100px;
+      }
+    }
+    .titulo__secundario {
+      border-radius: $standar;
+    }
+    .titulo__banner{
+      font-size: 20px;
+    }
+    .estilo__nav{
+      @for $i from 1 through 5 {
+        li:hover:nth-child(#{$i}) {
+            transform: scale(1.1);
+        }
+      }
+      font-size: 18px;
+    }
+    .estilo__footer{
+      img{
+        height: $standar*5;
+      }
+      div{
+          ul{
+            justify-content: center;
+            }
+      }
+
+    }
+    #redes{
+     img{
+       width: 30px;
+       height: 30px;
+     }
+    }
+    .estilo__footer--cambio{
+      margin: 5px;
+      li{
+        font-size: 12px;
+      }
+    }
+    .estilo__header{
+      img{
+        width: $standar*10;
+      }
+    }
+   #seccion__info img{
+      width: $standar*10;
+   }
+ }
+ @media (min-width: 320px) { 
+  .estilo__footer{
+    img{
+      height: $standar*9;
+      width: $standar*9;
+    }
+  }
+  #seccion__blog{
+   div{
+     text-align: center;
+    padding: $standar;
+      img{
+        height: 300px;
+        width: 300px;
+        border-radius: $standar;
+      }
+      p{
+        background-color: rgba(95, 68, 33, 0.781);
+        padding: $standar;
+        border-radius: 5px;
+        font-size: 15px;
+      }
+   }
+    }
+  #redes{
+    display: none;
+  }
+  #seccion__video{
+    iframe{
+      width: 400px;
+      height: $standar*20;
+    }
+    p{
+      font-size: 10px;
+      display: none;
+    }
+  }
+  #seccion__bicicletas{
+    img{
+      width: $standar*20;
+      height: 350px;
+    }
+    h2{
+      font-size: 20px;
+    }
+    padding-top: 5px;
+    li{
+      display: inline;
+      font-size: 14px;
+      padding:2px;
+    }
+    ul{
+      text-align: center;
+    }
+    .col-xxl-2{
+      background-color: rgba(170, 137, 111, 0.322);
+    }
+  }
+}
+ 
+ @media (min-width: 576px) { 
+  #seccion__blog{
+    border-radius: $standar;
+    div{
+     padding: $standar;
+       img{
+         height: 350px;
+         width: 450px;
+         border-radius: $standar;
+       }
+       p{
+        font-size: 20px;
+       }
+    }
+     }
+  .estilo__footer{
+    img{
+      height: $standar*10;
+    }
+  }
+  #redes{
+    display: contents;
+  
+      img{
+        width: 30px;
+        height: 30px;
+      }
+  }
+  #seccion__video{
+    iframe{
+      width: 550px;
+      height: 400px;
+    }
+    p{
+      font-size: $standar;
+      display:none;
+    }
+  }
+  #seccion__bicicletas{
+    img{
+      width: $standar*20;
+      height: 250px;
+    }
+    h2{
+      font-size: 25px;
+    }
+    li{
+      display: inline;
+      font-size: 17px;
+      padding: 5px;
+    }
+    ul{
+      text-align: center;
+    }
+  }
+ }
+ @media (min-width: 768px) {
+  #seccion__blog{
+    div{
+      padding: $standar;
+         margin:$standar;
+      
+       img{
+         height: 650px;
+         width: 850px;
+         
+         border-radius: $standar;
+       }
+    }
+    }
+    #seccion__video{
+      iframe{
+        width: 750px;
+        height: 400px;
+      }
+      p{
+        display:none;
+      }
+    }
+     
+     #seccion__bicicletas{
+      img{
+        width: $standar*20;
+        height: 350px;
+      }
+      li{
+        display: inline;
+        font-size: 20px;
+      }
+      ul{
+        text-align: center;
+      }
+    } 
+     
+ }
+ 
+ @media (min-width: 992px) {
+    #seccion__video{
+        iframe{
+          width: 1000px;
+          height: 700px;
+        }
+        p{
+          display:contents;
+        }
+    }
+     #seccion__bicicletas{
+      img{
+        width: $standar*20;
+        height: 400px;
+      }
+      li{
+        display: inline;
+      }
+      ul{
+        text-align: center;
+      }
+    }
+    } 
+  
+  
+ @media (min-width: 1200px) {
+    #seccion__video{
+      iframe{
+        width: 1200px;
+        height: 550px;
+      }
+  }
+  
+  #seccion__bicicletas{
+    img{
+      width: 400px;
+      height: 450px;
+    }
+    padding-top: 5px;
+    li{
+      display: inline;
+      
+    }
+    ul{
+      text-align: center;
+    }
+  } 
+ }
+ @media (min-width: 1400px){  
+    #seccion__video{
+      iframe{
+      width: 1500px;
+      height: 800px;
+    }
+  }
+  #seccion__blog{
+    img{
+      width: 650px;
+      height: 550px;
+    }
+  }#seccion__bicicletas{
+    li{
+      display: block;
+      margin-left:  40px;
+    }
+    ul{
+      text-align: left;
+      margin: $standar;
+    }
+  }  
+} 

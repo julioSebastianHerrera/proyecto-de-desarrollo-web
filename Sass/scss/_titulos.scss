@@ -1,0 +1,29 @@
+@mixin over {
+  padding: 20px 0;
+  padding-top: 20px;
+}
+  .titulo__footer{
+    ul{
+      text-transform: uppercase;
+    }
+  }
+  .titulo__secundario {
+    @include letras;
+    font-size: 25px;
+    border-color: #000000;
+    color: rgb(217, 154, 92);
+    padding: $standar;
+    margin: $standar;
+  }
+  .titulo__banner {
+   @include letras;
+   padding: 20px;
+   font-size: 30px;
+ }
+  .titulo__formulario{
+     @include letras;
+    padding: 20px;
+    font-size: $standar;
+    color:#9f92af;
+  }
+  

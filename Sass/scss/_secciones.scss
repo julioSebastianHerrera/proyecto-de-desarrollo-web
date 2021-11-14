@@ -1,0 +1,85 @@
+
+#registro {
+  padding: $standar;
+  text-align: center;
+  width: 550px;
+  margin-top: 100px;
+  margin: auto;
+  border-radius: 4px;
+  font-size: 18px;
+  button{
+    border-style: none;
+    background-color: rgb(161, 218, 169);
+    :hover{
+      background-color: #30254e49;
+    }
+  }
+  textarea{
+    background-color: rgb(161, 218, 169);
+    text-align: center;
+    border-style: none;
+  }
+}
+#registro input{
+  background-color: rgb(40, 56, 42);
+  color: white;
+  border-style: none;
+  width: 100%;
+  font-size: $standar;
+  padding: 10px;
+  margin-bottom: 16px;
+}
+  
+ #seccion__info{
+   margin: $standar;
+   padding: $standar;
+   background-color: rgb(61, 94, 100);
+    img{
+      width: 250px;
+      }
+   }
+   #seccion__video{
+     margin: $standar;
+     padding: $standar;
+   }
+  
+  #seccion__blog{
+    h2{
+      background-color: azure;
+      border-radius: 0;
+    }
+    margin: $standar*2;
+    padding: $standar;
+    text-align: center;
+   div{
+    padding: $standar;
+    border-radius: $standar;
+    
+      p{
+        
+        color: white;
+      }
+   }
+    }
+  #seccion__bicicletas{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    p{
+      color: white;
+    }
+    img{
+      border-radius: $standar;
+    }
+    ul{
+      text-align: left;
+      li{
+        text-transform: capitalize;
+      }
+    }
+    a{
+      color: white;
+    }
+    nav{
+      background-color: rgba(170, 137, 111, 0.527);
+    }
+  }

@@ -1,0 +1,164 @@
+
+.estilo__header{
+  text-align: center;
+  a{
+    color: white;
+   
+  }
+  img{
+    width: 200px;
+  }
+}
+.estilo__logo{
+    img{
+    height: 160px;
+    width: 140px;
+    padding: 15px;
+    margin: 5px;
+    }
+    
+}
+.estilo__nav{
+  background-color: rgb(61, 94, 100);
+  @include letras();
+    text-align: center;
+    @for $i from 1 through 5 {
+      li:hover:nth-child(#{$i}) {
+          transform: scale(1.2);
+          a{
+            background: #ef8354;
+            color: white;
+          }
+      }
+    }
+    li{
+      margin: {
+        left: 40px;
+        right: 40px;
+      }
+    }
+  }
+  .estilo__banner{
+    background-color: rgba(61, 94, 100, 0.753);
+    a{
+      text-decoration: none;
+      color: #ffffff;
+      :hover{
+        transform: scale(1.2);
+      }
+    }
+  }
+  .estilo__button{
+   
+    button{
+      color: white;
+      padding: 5px;
+      background-image: linear-gradient(to top, #347470, #b39776);
+    }
+    input{
+     background-color: #749daf5e;
+    }
+    div{
+      padding: 5px;
+    }
+  }
+  .estilo__button--top{
+    img{
+      width: 40px;
+      height: 40px;
+    }
+    
+  }
+  footer{
+    background-color: rgb(33, 56, 59);
+    margin: $standar;
+    div{
+      padding: $standar/3;
+    }
+    p{
+      font-size: 10px;
+    }
+  }
+  .estilo__footer{
+    ul{
+      
+      margin: $standar;
+      li{
+        color: rgb(95, 167, 149);
+      }
+    }
+    h3{
+      font-size: $standar;
+    }
+      div:nth-child(1){
+        p{
+          text-align: center;
+        }
+        ul{
+          justify-content: center;
+          @for $i from 1 through 9 {
+            li:nth-child(#{$i}) {
+                padding: 5px;
+                margin: 5px;
+            }
+          }
+        }
+      }
+      div:nth-child(2){
+        font-size: $standar;
+       ul{
+         justify-content: center;
+         li{
+           padding: $standar;
+         }
+       }
+      }
+    } 
+  .estilo__footer--cambio{
+    a{
+      color: w;
+      li{
+        font-size: 13px;
+      }
+    }
+    margin: $standar;
+    
+  }
+  hr {
+    color: rgb(0, 71, 44);
+    opacity: 2;
+  }
+  .row{
+    a {
+      text: {
+        decoration: none;
+        transform: uppercase;
+      }
+      color: white;
+    }
+    button {
+      background-color: #5223d3;
+    }
+    input, textarea{
+      border-style: outset;
+      background-color: #e0f0f0d0;
+    }
+    .texto
+    {
+       @for $i from 1 through 4 {
+           div:nth-child(#{$i}) {
+           padding: 20px;
+           margin: 40px;
+           background-color: rgb(236, 236, 236);
+           border-radius: $standar;
+           h1{
+            color: #d67852;
+           }  
+         }
+       }
+    }
+  }
+
+  
+  
+

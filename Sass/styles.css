@@ -1,0 +1,706 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  border-radius: 15px;
+}
+
+li {
+  list-style-type: none;
+}
+
+body {
+  background-image: url(../Multimedia/img/fondo.jpg);
+  background-repeat: round;
+  background-attachment: fixed;
+  font-family: 'Quicksand', sans-serif;
+}
+
+#registro {
+  padding: 15px;
+  text-align: center;
+  width: 550px;
+  margin-top: 100px;
+  margin: auto;
+  border-radius: 4px;
+  font-size: 18px;
+}
+
+#registro button {
+  border-style: none;
+  background-color: #a1daa9;
+}
+
+#registro button :hover {
+  background-color: #30254e49;
+}
+
+#registro textarea {
+  background-color: #a1daa9;
+  text-align: center;
+  border-style: none;
+}
+
+#registro input {
+  background-color: #28382a;
+  color: white;
+  border-style: none;
+  width: 100%;
+  font-size: 15px;
+  padding: 10px;
+  margin-bottom: 16px;
+}
+
+#seccion__info {
+  margin: 15px;
+  padding: 15px;
+  background-color: #3d5e64;
+}
+
+#seccion__info img {
+  width: 250px;
+}
+
+#seccion__video {
+  margin: 15px;
+  padding: 15px;
+}
+
+#seccion__blog {
+  margin: 30px;
+  padding: 15px;
+  text-align: center;
+}
+
+#seccion__blog h2 {
+  background-color: azure;
+  border-radius: 0;
+}
+
+#seccion__blog div {
+  padding: 15px;
+  border-radius: 15px;
+}
+
+#seccion__blog div p {
+  color: white;
+}
+
+#seccion__bicicletas {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#seccion__bicicletas p {
+  color: white;
+}
+
+#seccion__bicicletas img {
+  border-radius: 15px;
+}
+
+#seccion__bicicletas ul {
+  text-align: left;
+}
+
+#seccion__bicicletas ul li {
+  text-transform: capitalize;
+}
+
+#seccion__bicicletas a {
+  color: white;
+}
+
+#seccion__bicicletas nav {
+  background-color: rgba(170, 137, 111, 0.527);
+}
+
+.estilo__header {
+  text-align: center;
+}
+
+.estilo__header a {
+  color: white;
+}
+
+.estilo__header img {
+  width: 200px;
+}
+
+.estilo__logo img {
+  height: 160px;
+  width: 140px;
+  padding: 15px;
+  margin: 5px;
+}
+
+.estilo__nav {
+  background-color: #3d5e64;
+  text-align: center;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.estilo__nav li:hover:nth-child(1) {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.estilo__nav li:hover:nth-child(1) a {
+  background: #ef8354;
+  color: white;
+}
+
+.estilo__nav li:hover:nth-child(2) {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.estilo__nav li:hover:nth-child(2) a {
+  background: #ef8354;
+  color: white;
+}
+
+.estilo__nav li:hover:nth-child(3) {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.estilo__nav li:hover:nth-child(3) a {
+  background: #ef8354;
+  color: white;
+}
+
+.estilo__nav li:hover:nth-child(4) {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.estilo__nav li:hover:nth-child(4) a {
+  background: #ef8354;
+  color: white;
+}
+
+.estilo__nav li:hover:nth-child(5) {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.estilo__nav li:hover:nth-child(5) a {
+  background: #ef8354;
+  color: white;
+}
+
+.estilo__nav li {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.estilo__banner {
+  background-color: rgba(61, 94, 100, 0.753);
+}
+
+.estilo__banner a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.estilo__banner a :hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.estilo__button button {
+  color: white;
+  padding: 5px;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#347470), to(#b39776));
+  background-image: linear-gradient(to top, #347470, #b39776);
+}
+
+.estilo__button input {
+  background-color: #749daf5e;
+}
+
+.estilo__button div {
+  padding: 5px;
+}
+
+.estilo__button--top img {
+  width: 40px;
+  height: 40px;
+}
+
+footer {
+  background-color: #21383b;
+  margin: 15px;
+}
+
+footer div {
+  padding: 5px;
+}
+
+footer p {
+  font-size: 10px;
+}
+
+.estilo__footer ul {
+  margin: 15px;
+}
+
+.estilo__footer ul li {
+  color: #5fa795;
+}
+
+.estilo__footer h3 {
+  font-size: 15px;
+}
+
+.estilo__footer div:nth-child(1) p {
+  text-align: center;
+}
+
+.estilo__footer div:nth-child(1) ul {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.estilo__footer div:nth-child(1) ul li:nth-child(1) {
+  padding: 5px;
+  margin: 5px;
+}
+
+.estilo__footer div:nth-child(1) ul li:nth-child(2) {
+  padding: 5px;
+  margin: 5px;
+}
+
+.estilo__footer div:nth-child(1) ul li:nth-child(3) {
+  padding: 5px;
+  margin: 5px;
+}
+
+.estilo__footer div:nth-child(1) ul li:nth-child(4) {
+  padding: 5px;
+  margin: 5px;
+}
+
+.estilo__footer div:nth-child(1) ul li:nth-child(5) {
+  padding: 5px;
+  margin: 5px;
+}
+
+.estilo__footer div:nth-child(1) ul li:nth-child(6) {
+  padding: 5px;
+  margin: 5px;
+}
+
+.estilo__footer div:nth-child(1) ul li:nth-child(7) {
+  padding: 5px;
+  margin: 5px;
+}
+
+.estilo__footer div:nth-child(1) ul li:nth-child(8) {
+  padding: 5px;
+  margin: 5px;
+}
+
+.estilo__footer div:nth-child(1) ul li:nth-child(9) {
+  padding: 5px;
+  margin: 5px;
+}
+
+.estilo__footer div:nth-child(2) {
+  font-size: 15px;
+}
+
+.estilo__footer div:nth-child(2) ul {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.estilo__footer div:nth-child(2) ul li {
+  padding: 15px;
+}
+
+.estilo__footer--cambio {
+  margin: 15px;
+}
+
+.estilo__footer--cambio a {
+  color: w;
+}
+
+.estilo__footer--cambio a li {
+  font-size: 13px;
+}
+
+hr {
+  color: #00472c;
+  opacity: 2;
+}
+
+.row a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+}
+
+.row button {
+  background-color: #5223d3;
+}
+
+.row input, .row textarea {
+  border-style: outset;
+  background-color: #e0f0f0d0;
+}
+
+.row .texto div:nth-child(1) {
+  padding: 20px;
+  margin: 40px;
+  background-color: #ececec;
+  border-radius: 15px;
+}
+
+.row .texto div:nth-child(1) h1 {
+  color: #d67852;
+}
+
+.row .texto div:nth-child(2) {
+  padding: 20px;
+  margin: 40px;
+  background-color: #ececec;
+  border-radius: 15px;
+}
+
+.row .texto div:nth-child(2) h1 {
+  color: #d67852;
+}
+
+.row .texto div:nth-child(3) {
+  padding: 20px;
+  margin: 40px;
+  background-color: #ececec;
+  border-radius: 15px;
+}
+
+.row .texto div:nth-child(3) h1 {
+  color: #d67852;
+}
+
+.row .texto div:nth-child(4) {
+  padding: 20px;
+  margin: 40px;
+  background-color: #ececec;
+  border-radius: 15px;
+}
+
+.row .texto div:nth-child(4) h1 {
+  color: #d67852;
+}
+
+.titulo__footer ul {
+  text-transform: uppercase;
+}
+
+.titulo__secundario {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 25px;
+  border-color: #000000;
+  color: #d99a5c;
+  padding: 15px;
+  margin: 15px;
+}
+
+.titulo__banner {
+  text-align: center;
+  text-transform: uppercase;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.titulo__formulario {
+  text-align: center;
+  text-transform: uppercase;
+  padding: 20px;
+  font-size: 15px;
+  color: #9f92af;
+}
+
+@media (max-width: 900px) {
+  #seccion__log h2 {
+    font-size: 15px;
+  }
+  #seccion__log p, #seccion__log h3 {
+    font-size: 11px;
+  }
+  #seccion__log button {
+    font-size: 11px;
+  }
+  #registro {
+    width: auto;
+  }
+  #registro input {
+    width: 300px;
+    height: 20px;
+  }
+  #registro textarea {
+    text-align: center;
+    width: 400px;
+    height: 100px;
+  }
+  .titulo__secundario {
+    border-radius: 15px;
+  }
+  .titulo__banner {
+    font-size: 20px;
+  }
+  .estilo__nav {
+    font-size: 18px;
+  }
+  .estilo__nav li:hover:nth-child(1) {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  .estilo__nav li:hover:nth-child(2) {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  .estilo__nav li:hover:nth-child(3) {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  .estilo__nav li:hover:nth-child(4) {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  .estilo__nav li:hover:nth-child(5) {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  .estilo__footer img {
+    height: 75px;
+  }
+  .estilo__footer div ul {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #redes img {
+    width: 30px;
+    height: 30px;
+  }
+  .estilo__footer--cambio {
+    margin: 5px;
+  }
+  .estilo__footer--cambio li {
+    font-size: 12px;
+  }
+  .estilo__header img {
+    width: 150px;
+  }
+  #seccion__info img {
+    width: 150px;
+  }
+}
+
+@media (min-width: 320px) {
+  .estilo__footer img {
+    height: 135px;
+    width: 135px;
+  }
+  #seccion__blog div {
+    text-align: center;
+    padding: 15px;
+  }
+  #seccion__blog div img {
+    height: 300px;
+    width: 300px;
+    border-radius: 15px;
+  }
+  #seccion__blog div p {
+    background-color: rgba(95, 68, 33, 0.781);
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 15px;
+  }
+  #redes {
+    display: none;
+  }
+  #seccion__video iframe {
+    width: 400px;
+    height: 300px;
+  }
+  #seccion__video p {
+    font-size: 10px;
+    display: none;
+  }
+  #seccion__bicicletas {
+    padding-top: 5px;
+  }
+  #seccion__bicicletas img {
+    width: 300px;
+    height: 350px;
+  }
+  #seccion__bicicletas h2 {
+    font-size: 20px;
+  }
+  #seccion__bicicletas li {
+    display: inline;
+    font-size: 14px;
+    padding: 2px;
+  }
+  #seccion__bicicletas ul {
+    text-align: center;
+  }
+  #seccion__bicicletas .col-xxl-2 {
+    background-color: rgba(170, 137, 111, 0.322);
+  }
+}
+
+@media (min-width: 576px) {
+  #seccion__blog {
+    border-radius: 15px;
+  }
+  #seccion__blog div {
+    padding: 15px;
+  }
+  #seccion__blog div img {
+    height: 350px;
+    width: 450px;
+    border-radius: 15px;
+  }
+  #seccion__blog div p {
+    font-size: 20px;
+  }
+  .estilo__footer img {
+    height: 150px;
+  }
+  #redes {
+    display: contents;
+  }
+  #redes img {
+    width: 30px;
+    height: 30px;
+  }
+  #seccion__video iframe {
+    width: 550px;
+    height: 400px;
+  }
+  #seccion__video p {
+    font-size: 15px;
+    display: none;
+  }
+  #seccion__bicicletas img {
+    width: 300px;
+    height: 250px;
+  }
+  #seccion__bicicletas h2 {
+    font-size: 25px;
+  }
+  #seccion__bicicletas li {
+    display: inline;
+    font-size: 17px;
+    padding: 5px;
+  }
+  #seccion__bicicletas ul {
+    text-align: center;
+  }
+}
+
+@media (min-width: 768px) {
+  #seccion__blog div {
+    padding: 15px;
+    margin: 15px;
+  }
+  #seccion__blog div img {
+    height: 650px;
+    width: 850px;
+    border-radius: 15px;
+  }
+  #seccion__video iframe {
+    width: 750px;
+    height: 400px;
+  }
+  #seccion__video p {
+    display: none;
+  }
+  #seccion__bicicletas img {
+    width: 300px;
+    height: 350px;
+  }
+  #seccion__bicicletas li {
+    display: inline;
+    font-size: 20px;
+  }
+  #seccion__bicicletas ul {
+    text-align: center;
+  }
+}
+
+@media (min-width: 992px) {
+  #seccion__video iframe {
+    width: 1000px;
+    height: 700px;
+  }
+  #seccion__video p {
+    display: contents;
+  }
+  #seccion__bicicletas img {
+    width: 300px;
+    height: 400px;
+  }
+  #seccion__bicicletas li {
+    display: inline;
+  }
+  #seccion__bicicletas ul {
+    text-align: center;
+  }
+}
+
+@media (min-width: 1200px) {
+  #seccion__video iframe {
+    width: 1200px;
+    height: 550px;
+  }
+  #seccion__bicicletas {
+    padding-top: 5px;
+  }
+  #seccion__bicicletas img {
+    width: 400px;
+    height: 450px;
+  }
+  #seccion__bicicletas li {
+    display: inline;
+  }
+  #seccion__bicicletas ul {
+    text-align: center;
+  }
+}
+
+@media (min-width: 1400px) {
+  #seccion__video iframe {
+    width: 1500px;
+    height: 800px;
+  }
+  #seccion__blog img {
+    width: 650px;
+    height: 550px;
+  }
+  #seccion__bicicletas li {
+    display: block;
+    margin-left: 40px;
+  }
+  #seccion__bicicletas ul {
+    text-align: left;
+    margin: 15px;
+  }
+}
+/*# sourceMappingURL=styles.css.map */

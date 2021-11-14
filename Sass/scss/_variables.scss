@@ -1,0 +1,9 @@
+$standar:15px;
+$color:white;
+$style:none;
+@mixin letras{
+    text: {
+      align:center;
+      transform: uppercase;
+    }
+}
